@@ -9,7 +9,7 @@ $$
 p_{\theta,t}(x_t) \;=\; \int q_t\bigl(x_t \mid x_0\bigr)\, p_{\theta,0}(x_0)\, dx_0.
 $$
 
-A one-step flow generator matching aims to let the student distribution \(p_{\theta,0}\) match the data distribution \(q_0\). To achieve this, we match the marginal vector field \(v_{\theta,t}\) with the pre-trained one \(u_t\), such that \(p_{\theta,0}\) and \(q_0\) coincide:
+A one-step flow generator matching aims to let the student distribution $$p_{\theta,0}$$ match the data distribution $$q_0$$. To achieve this, we match the marginal vector field $$v_{\theta,t}$$ with the pre-trained one $$u_t$$, such that $$p_{\theta,0}$$ and $$q_0$$ coincide:
 
 $$
 L_{\mathrm{FM}}(\theta) \;:=\; E_{t,\;x_t \sim p_{\theta,t}}
