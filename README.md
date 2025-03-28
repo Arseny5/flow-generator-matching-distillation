@@ -16,8 +16,7 @@ match the data distribution $q_{\theta}$. For this, we consider matching the mar
 pre-trained one $u_t$ such that the distributions $p_{\theta,0}$ and $q_{\theta}$ can match with one another:
 
 $$
-L_{FM}(\theta) := \mathbb{E}_{t,x_t \sim p_{\theta,t}} \left\| v_{\theta,t}(x_t) - u_t(x_t) \right\|^2
-=
+L_{FM}(\theta) := \mathbb{E}_{t,x_t \sim p_{\theta,t}} \left\| v_{\theta,t}(x_t) - u_t(x_t) \right\|^2=
 \mathbb{E}_{\substack{
 t,\, z \sim p_z(z),\\
 x_{0}=g_{\theta}(z),\\
@@ -25,6 +24,7 @@ x_t \sim q_t(x_t \mid x_{\theta})
 }}
 \left\| v_{\theta,t}(x_t) - u_t(x_t) \right\|^2 \rightarrow \min_{\theta}.
 $$
+
 
 
 Our official technical report and theoretical part of distillations you can find here: [Report](https://drive.google.com/file/d/1YS1KzRWXeIw1R-vZkOWmVUhal0j8_Psz/view?usp=sharing)
