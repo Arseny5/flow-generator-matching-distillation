@@ -8,7 +8,7 @@ The goal is to train a one-step generator model $$g_\theta$$ that directly maps 
 Let $$p_{\theta,0}$$ denote the student model’s distribution over the generated samples $$x$$, and let $$p_{\theta,t}$$ denote the marginal probability path transitioned by $$q_t(x_t \mid x_0)$$. Formally:
 
 $$
-p_{\theta,t}(x_t) = \int q_t\bigl(x_t \mid x_0\bigr)\, p_{\theta,0}(x_0)\, dx_0
+p_{\theta,t}(x_t) = \int q_t\bigl(x_t \mid x_0\bigr) p_{\theta,0}(x_0) dx_0
 $$
 
 A one-step flow generator matching aims to let the student distribution $$p_{\theta,0}$$ match the data distribution $$q_0$$. To achieve this, we match the marginal vector field $$v_{\theta,t}$$ with the pre-trained one $$u_t$$, such that $$p_{\theta,0}$$ and $$q_0$$ coincide:
