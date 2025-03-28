@@ -38,7 +38,7 @@ Our technical report and theoretical explanations of FGM distillations you can f
 
 ### CIFAR-10
 
-![image](cif1.png)
+![image](images/cif1.png)
 
 ### MNIST
 
