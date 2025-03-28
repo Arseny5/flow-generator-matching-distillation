@@ -20,4 +20,4 @@ $$
 
 
 
-Our official technical report and theoretical part of distillations you can find here: [Report](https://drive.google.com/file/d/1YS1KzRWXeIw1R-vZkOWmVUhal0j8_Psz/view?usp=sharing)
+Our technical report and theoretical explanations of FGM distillations you can find here: [Report](https://drive.google.com/file/d/1YS1KzRWXeIw1R-vZkOWmVUhal0j8_Psz/view?usp=sharing)
