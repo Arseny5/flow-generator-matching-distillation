@@ -42,6 +42,8 @@ Our technical report and theoretical explanations of FGM distillations you can f
 
 ### MNIST
 
+![image](images/mnist1.png)
+
 ### Authors
 
 - Vladislav Gromadskii
