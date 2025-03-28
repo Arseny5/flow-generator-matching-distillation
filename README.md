@@ -21,7 +21,7 @@ $$
 
 $$
 = E_{\substack{
-t,\,z \sim p_z(z),
+t,z \sim p_z(z),
 x_{0} = g_{\theta}(z),\\
 x_t \sim q_t\bigl(x_t \mid x_{0}\bigr)
 }}
