@@ -12,3 +12,4 @@ torchdiffeq
 torchmetrics
 torch-fidelity
 wandb
+tqdm
