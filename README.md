@@ -17,9 +17,6 @@ pre-trained one $u_t$ such that the distributions $p_{\theta,0}$ and $q_{\theta}
 
 $$
 L_{FM}(\theta) := \mathbb{E}_{t,x_t \sim p_{\theta,t}} ||v_{\theta, t}(x_t) - u_t(x_t)||^2 =
-$$
-
-$$
 = \mathbb{E}_{\substack{t, z \sim p_z(z), x_{0}=g_{\theta}(z),\\ x_t \sim q_t(x_t|x_{\theta})}} 
 ||v_{\theta, t}(x_t) - u_t(x_t)||^2 \rightarrow \min_{\theta}
 $$
