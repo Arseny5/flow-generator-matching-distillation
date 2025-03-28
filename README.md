@@ -33,7 +33,12 @@ Our technical report and theoretical explanations of FGM distillations you can f
 
 ### CelebA-64
 
+![image](images/cel1.png)
+![image](images/cel2.png)
+
 ### CIFAR-10
+
+![image](cif1.png)
 
 ### MNIST
 
