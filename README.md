@@ -29,7 +29,12 @@ x_t \sim q_t\bigl(x_t \mid x_{0}\bigr)
 \longrightarrow \min_{\theta}
 $$
 
-
-
-
 Our technical report and theoretical explanations of FGM distillations you can find here: [Report](https://drive.google.com/file/d/1YS1KzRWXeIw1R-vZkOWmVUhal0j8_Psz/view?usp=sharing)
+
+## CelebA-64
+
+## CIFAR-10
+
+## MNIST
+
+
