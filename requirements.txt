@@ -1,0 +1,14 @@
+# PyTorch
+torch
+torchvision
+
+# Additional dependencies
+torchdyn
+torchcfm
+clean-fid
+zuko
+matplotlib
+torchdiffeq
+torchmetrics
+torch-fidelity
+wandb

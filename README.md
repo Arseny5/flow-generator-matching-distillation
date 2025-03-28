@@ -43,6 +43,17 @@ Our technical report and theoretical explanations of FGM distillations you can f
 
 ![image](images/mnist1.png)
 
+## Install dependencies via `requirements.txt`:
+
+```bash
+    pip install -r requirements.txt
+```
+In a jupyter notebook you can simply run this command in a cell:
+
+```bash
+    !pip install -r requirements.txt
+```
+
 ### Authors
 
 - Vladislav Gromadskii
