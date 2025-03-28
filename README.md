@@ -48,11 +48,6 @@ Our technical report and theoretical explanations of FGM distillations you can f
 ```bash
     pip install -r requirements.txt
 ```
-In a jupyter notebook you can simply run this command in a cell:
-
-```bash
-    !pip install -r requirements.txt
-```
 
 ### Authors
 
