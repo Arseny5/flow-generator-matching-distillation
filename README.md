@@ -16,7 +16,7 @@ A one-step flow generator matching aims to let the student distribution $$p_{\th
 $$
 L_{FM}(\theta) 
 := E_{t,x_t \sim p_{\theta,t}} 
-\bigl\||\v_{\theta,t}(x_t) - u_t(x_t)\bigr\||^2
+\bigl\||v_{\theta,t}(x_t) - u_t(x_t)\bigr\||^2
 $$
 
 $$
