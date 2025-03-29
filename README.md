@@ -53,6 +53,6 @@ Our technical report and theoretical explanations of FGM distillations you can f
 
 - Vladislav Gromadskii
 - Arseny Ivanov
-- Daniil Tohchukov
+- Danil Tokhchukov
 
 
